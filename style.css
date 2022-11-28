@@ -1,22 +1,24 @@
 .container{
-    display:flex;
+    display: flex;
     margin: 10px auto;
-    
+          
     
 
 }
 .card1 {
     /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.3s;
     width:40%;
     padding: 30px;
-    display:inline-block;
+    border-radius: 5px; /* 5px rounded corners */
+    text-align: center;
+    display:
   }
   
   /* On mouse-over, add a deeper shadow */
   .card1:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
   }
   
   /* Add some padding inside the card container */
@@ -24,16 +26,17 @@
     padding: 2px 16px;
   }
   .card2 {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
     transition: 0.3s;
     width:40%;
     border-radius: 5px; /* 5px rounded corners */
     padding: 30px;
+    text-align: center;
   }
   /* On mouse-over, add a deeper shadow */
   .card2:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
-    position:relative;
+    
   }
   
   /* Add rounded corners to the top left and the top right corner of the image */
